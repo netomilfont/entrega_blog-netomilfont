@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+header .headerKenzie{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'JetBrains Mono', monospace; ;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    margin: 30px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+h2 {
+    font-family: 'JetBrains Mono', monospace;
+    color: blue;
+    font-weight: 700;
+
+}
+
+p, label, input, legend{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+
+}
+
+.formKenzie{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+fieldset {
+    width: 400px;
+    height: 100px;
+    border: none;
+
+
+}
+
+footer .rightsKenzie{
+    color: rgb(255, 255, 255);
+    background-color: rgb(2,3,129);
+
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(2,3,129);
+    transition: 0.3s;
+}
